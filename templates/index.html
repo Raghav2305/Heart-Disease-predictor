@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page ❤</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body id="body">
+    <h1 id="h1">❤❤ Predict Heart Disease ❤❤</h1>
+    <div class="form"  id="formdiv">
+        <form action="/predict" method="POST">
+            <p>Enter your age: <input type="text" name="age"></p>
+            <p>Enter you sex: <input type="text" name="sex"></p>
+            <p>Enter type of chest pain(1,2,3,or 4) based on severity: <input type='number' name="cpain"></p>
+            <p>Enter resting blood pressure: <input type="number" name="restbp"></p>
+            <p>Enter Cholestrol level: <input type="number" name="cho"></p>
+            <p>Enter fasting blood sugar level: <input type="number" name="fbs"></p>
+            <p>Enter resting ECG results(value 0,1, or 2): <input type="number" name="ecg"></p>
+            <p>Enter max heart rate achieved: <input type="number" name="mrate"></p>
+            <p>Whether you have execise induced angina (0- No, 1- Yes): <input type="number" name="angina"></p>
+            <p>Enter oldpeak value: <input type="number" name="oldpeak"></p>
+            <p>Slope of the ST segment: <input type="number" name="St"></p>
+            <p>Number of major vessels colored (0-3): <input type="number" name="vessels"></p>
+            <p>Enter Thallassemia HB levels (0-10): <input type="number" name="hb"></p>
+            <input type="submit" id="sub">
+    
+    
+    
+        </form>
+
+    </div>
+    
+</body>
+</html>

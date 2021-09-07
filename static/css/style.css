@@ -1,0 +1,26 @@
+#h1{
+    text-align: center;
+    padding-top: 2%;
+    font-family: cursive;
+    color: red;
+}
+
+#sub{
+    padding:5px 15px; 
+    background: red; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-top: 1.5%;
+}
+
+#body{
+    background-color: purple;
+}
+
+.form{
+    text-align: center;
+    padding-top: 2%;
+    color: yellow;
+}

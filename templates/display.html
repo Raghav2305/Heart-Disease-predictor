@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Page</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/display.css') }}">
+</head>
+<body id="disbody">
+
+    <div id="prediction">
+        <h1>My Prediction is:</h1>
+
+    {% if preds[0] == 0 %}
+        <h2>You don't have a heart disease</h2>
+    {% else %}
+        <h2>You have a heart disease</h2>
+    {% endif %}
+
+    </div>
+
+    
+
+</body>
+</html>
