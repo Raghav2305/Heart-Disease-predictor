@@ -1,8 +1,5 @@
 
-conda==4.10.3
-conda-build==3.20.5
-conda-package-handling @ file:///C:/ci/conda-package-handling_1618262320430/work
-conda-verify==3.4.2
+
 Flask==1.1.2
 
 gunicorn==20.1.0
@@ -12,10 +9,7 @@ joblib @ file:///tmp/build/80754af9/joblib_1601912903842/work
 
 matplotlib @ file:///C:/ci/matplotlib-base_1603355780617/work
 
-mysql-connector-python==8.0.26
-
 numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
 
 pandas @ file:///C:/ci/pandas_1602083338010/work
 
