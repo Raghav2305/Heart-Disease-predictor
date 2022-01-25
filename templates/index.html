@@ -12,18 +12,18 @@
     <div class="form"  id="formdiv">
         <form action="/predict" method="POST">
             <p>Enter your age: <input type="text" name="age"></p>
-            <p>Enter you sex: <input type="text" name="sex"></p>
+            <p>Enter you sex(0 - Female, 1 - Male): <input type="text" name="sex"></p>
             <p>Enter type of chest pain(1,2,3,or 4) based on severity: <input type='number' name="cpain"></p>
             <p>Enter resting blood pressure: <input type="number" name="restbp"></p>
             <p>Enter Cholestrol level: <input type="number" name="cho"></p>
             <p>Enter fasting blood sugar level: <input type="number" name="fbs"></p>
-            <p>Enter resting ECG results(value 0,1, or 2): <input type="number" name="ecg"></p>
+            <p>Enter resting ECG results(80 - 130): <input type="number" name="ecg"></p>
             <p>Enter max heart rate achieved: <input type="number" name="mrate"></p>
             <p>Whether you have execise induced angina (0- No, 1- Yes): <input type="number" name="angina"></p>
-            <p>Enter oldpeak value: <input type="number" name="oldpeak"></p>
-            <p>Slope of the ST segment: <input type="number" name="St"></p>
+            <p>Enter oldpeak value(Range 0 - 6): <input type="number" name="oldpeak"></p>
+            <p>Slope of the ST segment(0 - Upsloping, 1 - Downsloping): <input type="number" name="St"></p>
             <p>Number of major vessels colored (0-3): <input type="number" name="vessels"></p>
-            <p>Enter Thallassemia HB levels (0-10): <input type="number" name="hb"></p>
+            <p>Enter Thallassemia HB levels (0-50): <input type="number" name="hb"></p>
             <input type="submit" id="sub">
     
     
